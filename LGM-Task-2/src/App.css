@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700|Ubuntu&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background-color: burlywood;
+}
+.App {
+  text-align: center;
+}
+.Nav {
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+  height: 70px;
+  padding: 20px;
+  padding-top: 20px;
+}
+h1 {
+  float: left;
+  color: #11052c;
+}
+.getUserBtn {
+  margin: 100px;
+  border: none;
+  background-color: #4169e1;
+  border-radius: 20px;
+  padding: 20px;
+  font-weight: bold;
+  color: white;
+}
+.getUserBtn:hover {
+  background-color: #9370db;
+  color: white;
+}
+.row {
+  margin: 30px;
+}
+.column {
+  float: left;
+  width: 23%;
+  padding: 10 10px;
+  margin-left: 100px;
+  margin-bottom: 40px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  text-align: center;
+  background-color: teal;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.card-img-top {
+  background-color: #9834eb;
+  border-radius: 50%;
+  height: 50%;
+  width: 50%;
+  border: 2px solid white;
+  margin: auto;
+}
+.card-title {
+  font-family: "Ubuntu", sans-serif;
+}
+.card-text {
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+}
+.card:hover {
+  box-shadow: 0px 0px 5px 5px white;
+  transform: scale(1.03);
+}
+
+ul {
+  font-size: 30px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li:hover {
+  cursor: pointer;
+  color: blue;
+}
